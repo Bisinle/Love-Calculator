@@ -43,10 +43,10 @@ setInput2('')
     <div className='div'>
 
       <form onSubmit={generate} className='form'>
-        <h1 className='header'>
-          <span className='heart'></span>
-          calculator
-          </h1>
+      <div className=' love'>
+        <span className='heart'></span>
+        <h1 className='header'>calculator</h1>
+      </div>
        
       <input 
       type='text'
