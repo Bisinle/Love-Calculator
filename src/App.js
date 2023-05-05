@@ -1,4 +1,5 @@
 import LoveCalculator from './components/LoveCalculator';
+import './index.css'
 
 function App() {
   return (

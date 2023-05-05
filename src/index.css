@@ -6,8 +6,10 @@ body {
   font-size: 1em;
   margin-top: 1em;
   text-align: center;
+  position: relative;
   
 }
+
 
 .heart {
   background-color: #000;
@@ -54,7 +56,9 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   flex-shrink: 1px;
-  justify-content: center;
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
   align-items: center;
   width: 400px;
   border-radius: 20px;
@@ -68,16 +72,16 @@ body {
 .input{
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 70%;
   margin: 20px auto;
   height: 20px;
   padding: 10px;
   border-radius: 50px;
   font-size: 1rem;
-  
-  
-
 }
+
+
+
 
 .btn{ 
   background:none;
@@ -86,6 +90,8 @@ body {
   font-size: 1.1rem;
   font-weight: bold;
   letter-spacing: 1px;
+  margin-bottom: 40px;
+  cursor: pointer;
 
 }
 .p{
